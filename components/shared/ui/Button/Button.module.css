@@ -1,0 +1,27 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button.filled {
+  border: 1px solid #283677;
+  background-color: #283677;
+  color: #ffffff;
+}
+
+.button.filled:hover {
+  background-color: #364aa5;
+}
+
+.button.outlined:hover {
+  background-color: #e3e8fd;
+  color: #283677;
+}
+
+.button.outlined {
+  border: 1px solid #283677;
+  background-color: #ffffff;
+  color: #222222;
+}

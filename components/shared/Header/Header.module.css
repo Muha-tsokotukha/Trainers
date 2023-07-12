@@ -1,3 +1,23 @@
 .container {
   width: 100%;
+  padding: 24px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_auth,
+.container_links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.container_links a {
+  color: #222222;
+  font-weight: 700;
+}
+
+.container_links a:hover {
+  border-bottom: 1px solid #222222;
 }
