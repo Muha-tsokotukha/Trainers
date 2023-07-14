@@ -5,23 +5,33 @@
   transition: 0.2s;
 }
 
-.button.filled {
+.button.primary.filled {
   border: 1px solid #283677;
   background-color: #283677;
   color: #ffffff;
 }
 
-.button.filled:hover {
+.button.primary.filled:hover {
   background-color: #364aa5;
 }
 
-.button.outlined:hover {
-  background-color: #e3e8fd;
-  color: #283677;
+.button.secondary.filled {
+  border: 1px solid #ff7170;
+  background-color: #ff7170;
+  color: #ffffff;
+}
+
+.button.secondary.filled:hover {
+  background-color: #ff7070d5;
 }
 
 .button.outlined {
   border: 1px solid #283677;
   background-color: #ffffff;
   color: #222222;
+}
+
+.button.outlined:hover {
+  background-color: #e3e8fd;
+  color: #283677;
 }
